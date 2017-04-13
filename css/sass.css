@@ -1,0 +1,93 @@
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  max-height: 500px; }
+
+a img {
+  max-height: 186px;
+  width: 100%; }
+
+.container-flued:nth-last-child(2) {
+  background: #1b1b1b;
+  color: white;
+  padding-bottom: 40px; }
+
+.container-flued:last-child {
+  padding-top: 10px;
+  border-top: 3px grey dotted;
+  background: black; }
+
+.input-group {
+  width: 145%; }
+
+.icons i {
+  width: 35px;
+  padding: 10px;
+  background: gray;
+  border-radius: 100%;
+  text-align: center; }
+.icons h5 {
+  padding-top: 22px; }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  border: 0px;
+  border-bottom: 1px gray solid; }
+
+.nav-tabs {
+  border-bottom: 0px; }
+
+.nav-tabs > li > a {
+  color: gray;
+  border-radius: 0;
+  background: white; }
+  .nav-tabs > li > a::hover {
+    background: white; }
+
+.nav-tabs > li > a:focus, .nav-tabs > li > a:hover {
+  border: 0px;
+  background: white;
+  border-bottom: 1px solid; }
+
+.thumbnail {
+  margin-top: 27px;
+  position: relative; }
+  .thumbnail:hover {
+    text-decoration: none; }
+  .thumbnail .triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    position: absolute;
+    top: 183px;
+    left: 22px; }
+  .thumbnail i {
+    padding: 10px 0px 10px 20px; }
+
+.navbar-brand {
+  color: black;
+  font-size: 27px;
+  font-weight: 600; }
+
+.line {
+  margin-top: 30px;
+  border-top: 1px solid gray; }
+
+.pos {
+  display: flex;
+  justify-content: center;
+  position: relative; }
+  .pos .container {
+    position: absolute;
+    top: 50%; }
+  .pos .pager li > a, .pos .pager li > span {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: grey;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    color: white; }
+
+/*# sourceMappingURL=sass.css.map */
